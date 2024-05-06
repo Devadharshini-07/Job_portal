@@ -1,0 +1,272 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Change as needed */
+  height: 100vh;
+  gap:155px;
+}
+
+/* Style the form container */
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 23%;
+  margin-left: 200px;
+}
+
+/* Style form elements */
+.form-control {
+  border-radius: 20;
+  margin-bottom: 10px;
+}
+
+/* Style the register button */
+.btn.btn-success {
+  border-radius: 0;
+  color:#dee2e6;
+  border-color: white;
+  background-color: #803790;
+  border-radius: 50px;
+}
+
+.btn.btn-success:hover{
+  background-color:grey;
+}
+
+/* Style the login button */
+ .btn-default {
+  border-radius: 0;
+  color:#dee2e6;
+  background-color: #803790; 
+  border-color: white; 
+  border-radius: 50px;
+} 
+
+.btn-default:hover{
+  color:white;
+  background-color: grey;
+}
+
+/* Style the paragraph */
+p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input{
+  border-radius: 10px;
+}
+
+
+.job{
+  width: 470px; /* Fixed width */
+  height: 570px;
+}
+
+.customer-width{
+  width:200px;
+}
+.gradient-text1{
+  background: linear-gradient(to right, #9525ED, #237FD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+/* Login page*/
+
+.login_container {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Change as needed */
+  height: 100vh;
+  gap:155px;
+}
+
+/* Style the form container */
+.login_form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 23%;
+  margin-left: 200px;
+}
+
+/* Style form elements */
+.login_form-control {
+  border-radius: 20;
+  margin-bottom: 10px;
+}
+
+/* Style the register button */
+.login_btn.btn-success {
+  border-radius: 0;
+  width:50px;
+  height:50px;
+  color:#dee2e6;
+  border-color: white;
+  background-color: #803790;
+  border-radius: 50px;
+}
+
+.login_btn.btn-success:hover{
+  background-color:grey;
+}
+
+/* Style the login button */
+ .login_btn-default {
+  border-radius: 0;
+  color:#dee2e6;
+  background-color: #803790; 
+  border-color: white; 
+} 
+
+.login_btn-default:hover{
+  color:white;
+  background-color: grey;
+}
+
+/* Style the paragraph */
+p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input{
+  border-radius: 50px;
+}
+
+
+.job{
+  width: 470px; /* Fixed width */
+  height: 570px;
+}
+
+.customer-width{
+  width:200px;
+}
+.login_gradient-text1{
+  background: linear-gradient(to right, #9525ED, #237FD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/*Home Page*/
+.topnav-right{
+   display: flex;  
+   float: right; 
+   text-decoration: none; 
+   margin-bottom: 40px;
+
+}
+
+.topnav a{
+  color:black;
+  text-decoration: none;
+  width:100px;
+}
+
+.topnav{
+  padding:20px;
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+  background-color:white;
+}
+
+
+
+
+.home_content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading{
+  padding: 50px;
+  margin-left:30px;
+}
+
+.text{
+  padding:20px;
+  color: black;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+.show{
+  margin-left: 70px;
+  width:30%;
+ 
+}
+
+.jobpro{
+  width:70px;
+  height:70px;
+  /* margin-bottom: 50px; */
+}
+
+.login_logo3{
+  width:70px;
+  height:65px;
+}
+
+.logo{
+  width:82px;
+  height:80px;
+}
+
+
+.job_home {
+  margin-left: auto; 
+   width: 470px; 
+  height: 470px; 
+  float:right;
+} 
+
+.Home_container {
+  align-items: center;
+  background-color: white; /* Change as needed */
+  height: 100vh;
+  gap:155px; /* Space between items */
+}
+
+.heading{
+  background: linear-gradient(to right, #9525ED, #237FD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.button1{
+  background-color: #803790;
+  color: white;
+  border:30px;
+}
+
+.button1:hover{
+  background-color: grey;
+}
+
